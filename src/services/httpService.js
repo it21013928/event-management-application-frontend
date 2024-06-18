@@ -1,6 +1,6 @@
 import axios from "axios";
 
-axios.defaults.baseURL = "http://localhost:5001";
+axios.defaults.baseURL = "https://event-management-application-backend.vercel.app/";
 
 const http = {
   get: axios.get,
